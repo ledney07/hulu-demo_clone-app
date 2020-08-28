@@ -1,0 +1,37 @@
+.video__card {
+  color: #fff;
+  width: 500px;
+  height: 400px;
+  padding: 40px;
+  transition: transform 0.1s;
+  margin: 40px;
+}
+
+.video__card:hover {
+  transform: scale(1.05);
+}
+
+.video__card > img {
+  width: 450px;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+.card__text > h2 {
+  cursor: pointer;
+  font-size: 27px;
+  margin: 6px 0;
+  text-transform: uppercase;
+}
+
+.card__text {
+  padding: 2px;
+}
+
+.video__card > .card__text:hover > .videoCard__stats {
+  display: inline;
+}
+
+.videoCard__stats {
+  display: none;
+}

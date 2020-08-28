@@ -1,0 +1,62 @@
+.header {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  overflow-x: scroll;
+}
+
+/* Hide scrollbar for Safari, Chrome and Opera */
+.header::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for EI, Egde and Firefox */
+.header {
+  -ms-overflow-style: none; /* EI & Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.header__icon {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.header__icon > .MuiSvgIcon-root {
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__icon--active > p {
+  display: inline-flex !important;
+}
+
+.header__icon:hover > p {
+  display: inline-flex;
+}
+
+.header__icon > p {
+  display: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: small;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.5s ease-in-out;
+}
+
+.header > img {
+  height: 80px;
+  object-fit: contain;
+}
