@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hulu-demo_clone-app/static/css/main.863ab15e.chunk.css",
+    "main.js": "/hulu-demo_clone-app/static/js/main.1f2325a6.chunk.js",
+    "main.js.map": "/hulu-demo_clone-app/static/js/main.1f2325a6.chunk.js.map",
+    "runtime-main.js": "/hulu-demo_clone-app/static/js/runtime-main.de6931ab.js",
+    "runtime-main.js.map": "/hulu-demo_clone-app/static/js/runtime-main.de6931ab.js.map",
+    "static/js/2.18fc9d30.chunk.js": "/hulu-demo_clone-app/static/js/2.18fc9d30.chunk.js",
+    "static/js/2.18fc9d30.chunk.js.map": "/hulu-demo_clone-app/static/js/2.18fc9d30.chunk.js.map",
+    "index.html": "/hulu-demo_clone-app/index.html",
+    "precache-manifest.a395adb8e30f515d8c3f5c3837347534.js": "/hulu-demo_clone-app/precache-manifest.a395adb8e30f515d8c3f5c3837347534.js",
+    "service-worker.js": "/hulu-demo_clone-app/service-worker.js",
+    "static/css/main.863ab15e.chunk.css.map": "/hulu-demo_clone-app/static/css/main.863ab15e.chunk.css.map",
+    "static/js/2.18fc9d30.chunk.js.LICENSE.txt": "/hulu-demo_clone-app/static/js/2.18fc9d30.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de6931ab.js",
+    "static/js/2.18fc9d30.chunk.js",
+    "static/css/main.863ab15e.chunk.css",
+    "static/js/main.1f2325a6.chunk.js"
+  ]
+}
